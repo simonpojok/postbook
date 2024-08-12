@@ -3,7 +3,7 @@ import {useUsers} from "@/hooks/users/useUsers";
 import {List, MD2Colors} from "react-native-paper";
 import {LoadingStatus} from "@/models/loading_status/loading_status.model";
 
-export default function TabTwoScreen() {
+export default function FriendsTab() {
     const {users, loadingStatus} = useUsers()
 
     if (loadingStatus === LoadingStatus.LOADING) {

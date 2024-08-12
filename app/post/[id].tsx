@@ -34,11 +34,13 @@ export default function DetailsScreen() {
                         {post.body}
                     </Text>
 
-                    <FlatList scrollEnabled={false} data={post.comments}
-                              renderItem={({item}) => <View style={styles.commentContainer}>
-                                  <Text style={styles.commentUserName}>{item.name}</Text>
-                                  <Text>{item.body}</Text>
-                              </View>}/>
+                    {/* It's safe for only 3 items */}
+                    {post.comments.slice(0, 3).map((item, index) => (
+                        <View style={styles.commentContainer} key={index}>
+                            <Text style={styles.commentUserName}>{item.name}</Text>
+                            <Text>{item.body}</Text>
+                        </View>
+                    ))}
                 </View>
             </ScrollView>
         </SafeAreaView>
