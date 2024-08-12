@@ -48,3 +48,10 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Screen Shoots
+
+![Simulator Screenshot - iPhone 15 - 2024-08-12 at 13 34 10](https://github.com/user-attachments/assets/bf95d6ed-7774-4ee9-987b-f66497ee1c74)
+![Simulator Screenshot - iPhone 15 - 2024-08-12 at 13 34 05](https://github.com/user-attachments/assets/b740161d-2049-4a18-bf52-4b66808685a9)
+![Simulator Screenshot - iPhone 15 - 2024-08-12 at 13 33 58](https://github.com/user-attachments/assets/441eb437-6896-4357-a973-c18836051f03)
+
